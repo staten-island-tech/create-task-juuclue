@@ -1,0 +1,41 @@
+body,
+html,*{
+ font-size: 100%;
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+ background-color: lavenderblush;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+.searchname {
+    align-items: center;
+    text-align: center;
+    background-color:aliceblue;
+    border-radius: 3rem;
+    width:200px;
+    height: 50px;
+    border-color: azure;
+}
+.searchname:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 0.5rem pink;
+    
+}
+#submit{
+    align-items: center;
+    text-align: center;
+    background-color:aliceblue;
+    border-radius: 3rem;
+    width:200px;
+    height: 50px;
+    border-color: azure;
+}
+ 
+#submit:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 0.5rem pink;
+}
