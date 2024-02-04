@@ -42,14 +42,6 @@ function sleepy() {
 POOP.innerHTML = `${bebop} out of ${Questions.length}`;
 }
 
-function checkAnswer(question, response) {
-
-    if (question.responses[response].correct) { score++;
-    }else{
-        alert('The correct answer is: ' + question.responses.find(r => r.correct).text);
-    }
-}
-
 const SIKE = document.getElementById('quiz');
 const POOP = document.getElementById('results');
 const soobway = document.getElementById('submit');
